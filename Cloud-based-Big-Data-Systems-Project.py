@@ -5,4 +5,12 @@ df2 = spark.read.format("csv").option("header", "true").load("dbfs:/FileStore/sh
 
 # COMMAND ----------
 
+display(df1)
+
+# COMMAND ----------
+
+display(df2)
+
+# COMMAND ----------
+
 
